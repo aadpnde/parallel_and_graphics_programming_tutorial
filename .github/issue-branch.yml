@@ -1,0 +1,27 @@
+# Create Issue Branch config
+# Docs: https://github.com/robvanderleek/create-issue-branch
+
+mode: auto
+silent: false
+
+branchName: '${issue.number}-${issue.title}'
+
+branches:
+  - label: 'type: note'
+    prefix: 'note/'
+  - label: 'type: revise'
+    prefix: 'revise/'
+  - label: 'type: expand'
+    prefix: 'expand/'
+  - label: 'type: diagram'
+    prefix: 'diagram/'
+  - label: 'type: example'
+    prefix: 'example/'
+  - label: 'type: docs'
+    prefix: 'docs/'
+  - label: '*'
+    prefix: ''
+
+autoLinkIssue: true
+autoCloseIssue: true
+lowercase: true

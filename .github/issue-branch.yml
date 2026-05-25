@@ -4,7 +4,7 @@
 mode: auto
 silent: false
 
-branchName: '${issue.number}-${issue.title}'
+branchName: '${issue.number}-${issue.title, }'
 
 branches:
   - label: 'type: note'

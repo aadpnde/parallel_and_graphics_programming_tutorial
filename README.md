@@ -13,7 +13,7 @@ Books:
 3. *Parallel and High Performance Computing* (Robey, Zamora):  [3] R. Robey and Y. Zamora, Parallel and High Performance Computing. Shelter Island: Manning, 2021.
 4. *The Khronos Vulkan Tutorial* (Vulkan 1.4): [4] “Khronos Vulkan® Tutorial :: Vulkan Documentation Project.” Accessed: May 24, 2026. [Online]. Available: https://docs.vulkan.org/tutorial/latest/00_Introduction.html
 5. *Vulkan 3D Graphics Rendering Cookbook* (Kosarevsky, Medvedev, Latypov): [5] S. Kosarevsky, A. Medvedev, and V. Latypov, Vulkan 3D Graphics Rendering Cookbook: Implement expert-level techniques for high-performance graphics with Vulkan. Birmingham: Packt Publishing, 2025.
-6. *Learn OpenGL* (de Vries): [1] J. de Vries, Learn OpenGL: Learn modern OpenGL graphics programming in a step-by-step fashion. Erscheinungsort nicht ermittelbar: Kendall & Welling, 2020.
+6. *Learn OpenGL* (de Vries): [6] J. de Vries, Learn OpenGL: Learn modern OpenGL graphics programming in a step-by-step fashion. Erscheinungsort nicht ermittelbar: Kendall & Welling, 2020.
 
 I'll try to add citations and stuff for the above (and the more to come).
 

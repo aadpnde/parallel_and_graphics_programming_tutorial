@@ -1,11 +1,11 @@
 ---
 name: Add a diagram /code example
 about: Add a visual or runnable example to some notes
-labels: ['type: example']
+labels: ['type: code']
 ---
 
 ## Description
-<!-- Which note(s) this will appear in, what the diagram or example shows. Switch the label to `type: example` if this is code instead of a visual -->
+<!-- Which note(s) this will appear in, what the diagram or example shows. Switch the label to `type: diagram` if this is code instead of a visual -->
 
 ## Format
 <!-- For diagrams: SVG, Mermaid, D2. Eg: language (CUDA, C++, Slang, Python, etc) -->

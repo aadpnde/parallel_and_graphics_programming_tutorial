@@ -1,0 +1,180 @@
+# Type (minimum one type label per issue)
+- name: 'type: note'
+  description: 'Write new note'
+  color: '0075ca'
+
+- name: 'type: revise'
+  description: 'Rewrite existing note'
+  color: '0075ca'
+
+- name: 'type: expand'
+  description: 'Add a section, examples, or more detail to an existing note'
+  color: '0075ca'
+
+- name: 'type: diagram'
+  description: 'Create/ update a visual'
+  color: '0075ca'
+
+- name: 'type: example'
+  description: 'Add code, exercises, worked problems, etc'
+  color: '0075ca'
+
+- name: 'type: docs'
+  description: 'Project documentation, NOT the notes themselves'
+  color: '0075ca'
+
+
+# Source (multi select)
+- name: 'src: pmpp'
+  description: 'Programming Massively Parallel Processors'
+  color: '6f42c1'
+
+- name: 'src: ccia'
+  description: 'C++ Concurrency in Action'
+  color: '6f42c1'
+
+- name: 'src: phpc'
+  description: 'Parallel and High Performance Computing'
+  color: '6f42c1'
+
+- name: 'src: kt'
+  description: 'Khronos Vulkan Tutorial'
+  color: '6f42c1'
+
+- name: 'src: vc'
+  description: 'Vulkan 3D Graphics Rendering Cookbook'
+  color: '6f42c1'
+
+- name: 'src: log'
+  description: 'Learn OpenGL'
+  color: '6f42c1'
+
+- name: 'src: external'
+  description: 'Papers, specs, vendor docs'
+  color: '6f42c1'
+
+
+# Topic (what the work is about, multi select)
+- name: 'topic: gpu-arch'
+  description: 'Warps, SMs, occupancy, hardware'
+  color: '0e8a16'
+
+- name: 'topic: cuda-model'
+  description: 'Kernels, grids, blocks, threads'
+  color: '0e8a16'
+
+- name: 'topic: memory-locality'
+  description: 'Shared memory, tiling, bank conflicts'
+  color: '0e8a16'
+
+- name: 'topic: parallel-patterns'
+  description: 'Reduction, scan, convolution, stencil, histogram, sort, merge, graph'
+  color: '0e8a16'
+
+- name: 'topic: perf-tuning'
+  description: 'Occupancy, divergence, the optimization checklist'
+  color: '0e8a16'
+
+- name: 'topic: cpp-threads'
+  description: 'std::thread, mutexes, condition variables'
+  color: '0e8a16'
+
+- name: 'topic: cpp-atomics'
+  description: 'Memory model, ordering, lock-free'
+  color: '0e8a16'
+
+- name: 'topic: vk-foundations'
+  description: 'Instance, device, queues, swap chain'
+  color: '0e8a16'
+
+- name: 'topic: vk-pipeline'
+  description: 'Graphics pipeline, shaders, dynamic rendering'
+  color: '0e8a16'
+
+- name: 'topic: vk-resources'
+  description: 'Buffers, descriptors, textures, bindless'
+  color: '0e8a16'
+
+- name: 'topic: vk-compute'
+  description: 'Vulkan compute shaders'
+  color: '0e8a16'
+
+- name: 'topic: pbr'
+  description: 'Physically based rendering, IBL'
+  color: '0e8a16'
+
+- name: 'topic: shadows-lighting'
+  description: 'Shadow maps, lighting models'
+  color: '0e8a16'
+
+- name: 'topic: post-processing'
+  description: 'HDR, bloom, SSAO, framebuffers'
+  color: '0e8a16'
+
+- name: 'topic: bindless-rendering'
+  description: 'Descriptor indexing, large scenes'
+  color: '0e8a16'
+
+- name: 'topic: gpu-driven'
+  description: 'Indirect rendering, GPU culling'
+  color: '0e8a16'
+
+- name: 'topic: engine-architecture'
+  description: 'Scene graph, DOD, ECS'
+  color: '0e8a16'
+
+- name: 'topic: ray-tracing'
+  description: 'RT pipelines, ray queries'
+  color: '0e8a16'
+
+- name: 'topic: multithread-rendering'
+  description: 'Frames in flight, sync, async loading'
+  color: '0e8a16'
+
+- name: 'topic: profiling-tools'
+  description: 'Nsight Compute, Nsight Systems, Tracy'
+  color: '0e8a16'
+
+- name: 'topic: distributed-hpc'
+  description: 'MPI, multi-GPU, NCCL'
+  color: '0e8a16'
+
+- name: 'topic: math-foundations'
+  description: 'Graphics math, linear algebra'
+  color: '0e8a16'
+
+
+# Status (1 value at a time)
+- name: 'status: stub'
+  description: 'Placeholder exists, no real content yet'
+  color: 'fbca04'
+
+- name: 'status: draft'
+  description: 'First pass written, needs revision'
+  color: 'fbca04'
+
+- name: 'status: reviewed'
+  description: 'Self-reviewed once, structure is solid'
+  color: 'fbca04'
+
+- name: 'status: polished'
+  description: 'Voice clean, ready for readers'
+  color: 'fbca04'
+
+
+# State — one-offs.
+- name: 'help-wanted'
+  description: 'Looking for community input'
+  color: '008672'
+
+- name: 'good-first-contribution'
+  description: 'Entry point for new contributors'
+  color: '7057ff'
+
+- name: 'blocked'
+  description: 'Waiting on something'
+  color: 'b60205'
+
+- name: 'discussion'
+  description: 'Open question, not actionable yet'
+  color: 'd876e3'

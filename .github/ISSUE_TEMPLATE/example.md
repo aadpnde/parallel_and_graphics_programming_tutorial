@@ -1,7 +1,7 @@
 ---
 name: Add a diagram /code example
 about: Add a visual or runnable example to some notes
-labels: ['type: code']
+labels: ['type: example']
 ---
 
 ## Description
